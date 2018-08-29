@@ -1,0 +1,16 @@
+PODS:
+  - ZPPLocalizable (0.1.0)
+
+DEPENDENCIES:
+  - ZPPLocalizable (from `../`)
+
+EXTERNAL SOURCES:
+  ZPPLocalizable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPPLocalizable: 804dc69c80987f6653333ba396212c46aa8e393d
+
+PODFILE CHECKSUM: 88cb5eccf2f3a22a562315fc78017a014925b5bb
+
+COCOAPODS: 1.5.3

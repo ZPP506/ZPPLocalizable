@@ -1,0 +1,6 @@
+framework module ZPPLocalizable {
+  umbrella header "ZPPLocalizable-umbrella.h"
+
+  export *
+  module * { export * }
+}
