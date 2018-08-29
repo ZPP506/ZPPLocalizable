@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZPPLocalizable_Example' do
+  pod 'ZPPLocalizable', :path => '../'
+
+  target 'ZPPLocalizable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
