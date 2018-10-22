@@ -10,6 +10,39 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+支持简体中文/繁体香港/繁体台湾/韩文/英文
+
+语言切换 - 监听宏
+#define KLanguagesWillChangeNotif @"KLanguagesWillChangeNotif" //将要切换
+#define KLanguagesDidChangeNotif @"KLanguagesDidChangeNotif" // 语言已经切换
+
+加载多语言字符串  
+**key：国际化Key**  
+#define FXLocalizedString(key)[FXLocalizableTools Localizable:key]   
+加载多语言字符串 根据不同 tbl加载  
+/**key：国际化Key  tbl：加载特定国际化文件名*/  
+#define FXLocalizedStringFromTable(key,tbl)[FXLocalizableTools Localizable:key tbl:tbl]  
+**切换语言**
+#define FXLocalizedChangeLanguages(LOCATIONLANAGESTYPE) [FXLocalizableTools LocalizableChangeLanguages:LOCATIONLANAGESTYPE]
+
+`` 
+ /**未知语言*/
+    LOCATIONLANAGESTYPE_Other,
+    /**简体中文*/
+    LOCATIONLANAGESTYPE_zh_Hans,
+    /**繁体中文 台湾*/
+    LOCATIONLANAGESTYPE_zh_Hant_TW,
+     /**繁体中文 香港*/
+    LOCATIONLANAGESTYPE_zh_Hant_HK,
+    /**英文*/
+    LOCATIONLANAGESTYPE_EN,
+    /**韩文*/
+    LOCATIONLANAGESTYPE_KO
+    ``
+ 获取当前语言
++ (LOCATIONLANAGESTYPE)currentLanages;
++ (NSString *)currentLanguageCode:(LOCATIONLANAGESTYPE)labType;
++ (NSString *)currentLanagesDetaile:(LOCATIONLANAGESTYPE)labTypeq;
 
 ## Installation
 
@@ -18,13 +51,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ZPPLocalizable'
-```
+`
 
 ## Author
 
-张朋朋, 944160330@qq.com
+April  944160330@qq.com
 
-请放心使用
+
 
 ## License
 
