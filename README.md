@@ -24,6 +24,8 @@ pod 'ZPPLocalizable'
 
 张朋朋, 944160330@qq.com
 
+请放心使用
+
 ## License
 
 ZPPLocalizable is available under the MIT license. See the LICENSE file for more info.
