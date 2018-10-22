@@ -16,13 +16,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 `#define KLanguagesWillChangeNotif @"KLanguagesWillChangeNotif"` //将要切换
 `#define KLanguagesDidChangeNotif @"KLanguagesDidChangeNotif"` // 语言已经切换
 
-加载多语言字符串  
+###加载多语言字符串  
+  
 **key：国际化Key**  
   
 `#define FXLocalizedString(key)[FXLocalizableTools Localizable:key]`   
+  
+    
 **key：国际化Key  tbl：加载特定国际化文件名**  
   
 `#define FXLocalizedStringFromTable(key,tbl)[FXLocalizableTools Localizable:key tbl:tbl]`  
+  
+    
 **切换语言**  
   
   `#define FXLocalizedChangeLanguages(LOCATIONLANAGESTYPE) [FXLocalizableTools LocalizableChangeLanguages:LOCATIONLANAGESTYPE]`
