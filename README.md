@@ -19,13 +19,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 加载多语言字符串  
 **key：国际化Key**  
 #define FXLocalizedString(key)[FXLocalizableTools Localizable:key]   
-加载多语言字符串 根据不同 tbl加载  
-/**key：国际化Key  tbl：加载特定国际化文件名*/  
+**key：国际化Key  tbl：加载特定国际化文件名**  
 #define FXLocalizedStringFromTable(key,tbl)[FXLocalizableTools Localizable:key tbl:tbl]  
-**切换语言**
+**切换语言**  
 #define FXLocalizedChangeLanguages(LOCATIONLANAGESTYPE) [FXLocalizableTools LocalizableChangeLanguages:LOCATIONLANAGESTYPE]
 
-`` 
+```
  /**未知语言*/
     LOCATIONLANAGESTYPE_Other,
     /**简体中文*/
@@ -38,10 +37,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     LOCATIONLANAGESTYPE_EN,
     /**韩文*/
     LOCATIONLANAGESTYPE_KO
-    ``
- 获取当前语言
-+ (LOCATIONLANAGESTYPE)currentLanages;
-+ (NSString *)currentLanguageCode:(LOCATIONLANAGESTYPE)labType;
+```
+ **获取当前语言**  
++ (LOCATIONLANAGESTYPE)currentLanages;  
++ (NSString *)currentLanguageCode:(LOCATIONLANAGESTYPE)labType;  
 + (NSString *)currentLanagesDetaile:(LOCATIONLANAGESTYPE)labTypeq;
 
 ## Installation
