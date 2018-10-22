@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		225A4E8FAF81524B305FB652 /* Pods-ZPPLocalizable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPLocalizable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPPLocalizable_Tests/Pods-ZPPLocalizable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3FAD804DAE59341A8016262B /* Pods_ZPPLocalizable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPLocalizable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43889128288F11FE3057F2E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43889128288F11FE3057F2E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZPPLocalizable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPPLocalizable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8245A4705C6C34595EF3BDA4 /* ZPPLocalizable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPPLocalizable.podspec; path = ../ZPPLocalizable.podspec; sourceTree = "<group>"; };
+		8245A4705C6C34595EF3BDA4 /* ZPPLocalizable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPPLocalizable.podspec; path = ../ZPPLocalizable.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9207F6A7166D3D3D7B9DCA78 /* Pods-ZPPLocalizable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPLocalizable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPPLocalizable_Tests/Pods-ZPPLocalizable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B40792ADE99204166CD9232D /* Pods-ZPPLocalizable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPLocalizable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPPLocalizable_Example/Pods-ZPPLocalizable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5B52FB356CDB36C7D477B92 /* Pods-ZPPLocalizable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPLocalizable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPPLocalizable_Example/Pods-ZPPLocalizable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5BB6A23BFD9DFAAE2839533 /* Pods_ZPPLocalizable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPLocalizable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E73CDF68D0960065654FE0EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E73CDF68D0960065654FE0EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张朋朋";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 423Z88A982;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = B40792ADE99204166CD9232D /* Pods-ZPPLocalizable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423Z88A982;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPPLocalizable/ZPPLocalizable-Prefix.pch";
 				INFOPLIST_FILE = "ZPPLocalizable/ZPPLocalizable-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = B5B52FB356CDB36C7D477B92 /* Pods-ZPPLocalizable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423Z88A982;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPPLocalizable/ZPPLocalizable-Prefix.pch";
 				INFOPLIST_FILE = "ZPPLocalizable/ZPPLocalizable-Info.plist";
