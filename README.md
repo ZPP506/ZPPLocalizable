@@ -59,11 +59,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ZPPLocalizable'
-`
+```
 
 ## Author
 
-April  944160330@qq.com
+ZPP  944160330@qq.com
 
 
 
